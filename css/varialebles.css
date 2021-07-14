@@ -1,7 +1,7 @@
 :root {
   --white-color: rgba(255, 255, 255, 1);
   --accent-color: rgba(33, 150, 243, 1);
-  --hero-color: rgba(47, 48, 58, 1);
+  --background-footer: rgba(47, 48, 58, 1);
   --black-color: rgba(33, 33, 33, 1);
   --secondary-color: rgba(117, 117, 117, 1);
   --placeholder-color: rgba(117, 117, 117, 0.5);
