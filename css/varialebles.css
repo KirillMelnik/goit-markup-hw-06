@@ -4,6 +4,7 @@
   --hero-color: rgba(47, 48, 58, 1);
   --black-color: rgba(33, 33, 33, 1);
   --secondary-color: rgba(117, 117, 117, 1);
+  --placeholder-color: rgba(117, 117, 117, 0.5);
   --background-team: rgba(245, 244, 250, 1);
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -17,4 +18,5 @@
   --backg-footer-links: rgba(255, 255, 255, 0.1);
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --modal-backdrop: rgba(0, 0, 0, 0.2);
+  --modal-button: #188ce8;
 }
