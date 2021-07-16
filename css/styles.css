@@ -907,7 +907,6 @@ p {
   margin-right: 7px;
   border-radius: 2px;
   background-color: inherit;
-  transition: display 250ms var(--cubic);
 }
 
 .checkbox-icon use {
