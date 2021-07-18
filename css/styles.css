@@ -473,8 +473,8 @@ p {
   margin-right: 70px;
 }
 
-.page-footer-thumb:nth-child(2n) {
-  margin-right: 93px;
+.page-footer-thumb:nth-child(3n) {
+  margin-left: auto;
 }
 
 .footer-logo {
