@@ -589,7 +589,12 @@ p {
   line-height: 1.25;
 }
 
+.subscribe-email-form {
+  display: flex;
+}
+
 .subscribe-email-button {
+  /* position: relative; */
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -600,17 +605,25 @@ p {
   padding: 10px 28px;
   border: none;
   cursor: pointer;
-  display: inline-flex;
   align-items: center;
+  fill: var(--white-color);
+  display: flex;
 }
 
-.subscribe-email-button::after {
+.subscribe-email-icon {
+  margin-left: 10px;
+  fill: var(--white-color);
+}
+
+/* =======через псевдоелемент :after====== */
+
+/* .subscribe-email-button::after {
   content: '';
   background-image: url(../images/icons/icon-send.svg);
   width: 24px;
   height: 24px;
   margin-left: 12px;
-}
+} */
 
 /* ============== PORTFOLIO ============ */
 
