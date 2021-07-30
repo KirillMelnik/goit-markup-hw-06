@@ -46,7 +46,7 @@ p {
   padding: 0 15px;
 }
 
-.flexbox,
+.header-container,
 .site-nav,
 .menu-list,
 .contacts-list {
@@ -74,12 +74,12 @@ p {
 
 /* ========HEADER========= */
 
-.page-header {
+.header {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--header-border);
 }
 
-.logo {
+.site-nav__logo {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
@@ -90,7 +90,7 @@ p {
   padding-bottom: 25px;
 }
 
-.menu-item:not(:last-child) {
+.menu-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -98,7 +98,7 @@ p {
   margin-left: auto;
 }
 
-.contacts-list-item:not(:first-child) {
+.contacts-list__item:not(:first-child) {
   margin-left: 50px;
 }
 
@@ -106,7 +106,7 @@ p {
   color: var(--black-color);
 }
 
-.menu-link {
+.menu-list__link {
   font-weight: 500;
   font-size: inherit;
   line-height: 1.14;
@@ -119,12 +119,12 @@ p {
   transition-timing-function: var(--cubic);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-list__link:hover,
+.menu-list__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-link {
+.contacts-list__link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -138,13 +138,13 @@ p {
   transition-timing-function: var(--cubic);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
   color: var(--accent-color);
   fill: currentColor;
 }
 
-.contacts-icon {
+.contacts-link__icon {
   margin-right: 10px;
 }
 
@@ -191,7 +191,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -237,17 +237,17 @@ p {
   margin-left: -30px;
 }
 
-.advantage-item {
+.advantage-list__item {
   flex-basis: calc((100% - 4 * var(--margin-cards)) / 4);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.advantage-section {
+.advantage {
   padding: 94px 0;
 }
 
-.advantage-subject {
+.advantage__subject {
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
@@ -255,12 +255,12 @@ p {
   margin-bottom: 10px;
 }
 
-.advantage-desc {
+.advantage__desc {
   line-height: 1.71;
   color: var(--secondary-color);
 }
 
-.advantage-icon-thumb {
+.advantage__icon-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,11 +272,11 @@ p {
 
 /* =============techskills======== */
 
-.techskills-section {
+.techskills {
   padding-bottom: 94px;
 }
 
-.techskills-title {
+.techskills__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -285,21 +285,21 @@ p {
   margin-bottom: 50px;
 }
 
-.techskills-list {
+.techskills__list {
   display: flex;
 }
 
-.techskills-item:not(:last-child) {
+.techskills__list-item:not(:last-child) {
   margin-right: var(--margin-cards);
 }
 
-.techskills-item-position {
+.techskills__item-position {
   position: relative;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
     0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
 }
 
-.techskills-position-absolute {
+.techskills__position-absolute {
   position: absolute;
   bottom: 0;
   left: 0;
